@@ -1,6 +1,9 @@
 <body>
+
 	<div class="sr-content center">
-		<h3 class="title">¡Bienvenida <%=request.getSession().getAttribute("user") %>!</h3>
+	<br>
+	<br>
+		<h3 class="title">¡Bienvenido <%=request.getSession().getAttribute("user") %>!</h3>
 	</div>
 	
 	<div>
