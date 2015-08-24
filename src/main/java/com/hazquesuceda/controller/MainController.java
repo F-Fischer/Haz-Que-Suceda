@@ -19,11 +19,6 @@ import com.hazquesuceda.model.User;
 import com.hazquesuceda.service.ProyectoService;
 import com.hazquesuceda.service.UserService;
 
-/**
- * 
- * @author leandrobagur
- * 
- */
 
 @Controller
 public class MainController {

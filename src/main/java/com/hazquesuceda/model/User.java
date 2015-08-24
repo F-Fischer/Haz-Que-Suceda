@@ -11,11 +11,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-/**
- * 
- * @author leandrobagur
- *
- */
 
 @Entity
 @Table(name = "usuario")

@@ -10,11 +10,6 @@ import org.springframework.stereotype.Repository;
 import com.hazquesuceda.interfaces.IUserDAO;
 import com.hazquesuceda.model.User;
 
-/**
- * 
- * @author leandrobagur
- *
- */
 
 @Repository
 public class UserDAOImpl extends GenericDAOImpl<User> implements IUserDAO{

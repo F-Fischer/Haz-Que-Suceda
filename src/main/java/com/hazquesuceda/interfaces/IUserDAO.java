@@ -4,11 +4,6 @@ import java.util.List;
 
 import com.hazquesuceda.model.User;
 
-/**
- * 
- * @author leandrobagur
- *
- */
 
 public interface IUserDAO extends IGenericDAO<User>{
 	

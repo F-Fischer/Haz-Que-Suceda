@@ -8,11 +8,6 @@ import org.springframework.stereotype.Repository;
 import com.hazquesuceda.interfaces.IRoleDAO;
 import com.hazquesuceda.model.Role;
 
-/**
- * 
- * @author leandrobagur
- *
- */
 
 @Repository
 public class RoleDAOImpl extends GenericDAOImpl<Role> implements IRoleDAO{

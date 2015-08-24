@@ -8,12 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.hazquesuceda.interfaces.IGenericDAO;
 
-/**
- * 
- * @author leandrobagur
- * 
- * @param <T>
- */
 
 public abstract class GenericDAOImpl<T> implements IGenericDAO<T> {
 
