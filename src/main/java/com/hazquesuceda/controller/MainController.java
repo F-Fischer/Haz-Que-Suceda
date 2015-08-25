@@ -67,6 +67,22 @@ public class MainController {
 		return model;
 	}
 	
+	@RequestMapping(value = "nuevoProyecto")
+	public ModelAndView nuevoProyecto(@RequestParam(value = "active", required = false) Boolean active,
+			HttpServletRequest request) {
+		ModelAndView model = new ModelAndView();
+		model.setViewName("nuevoProyecto");
+/*
+		if (request.isUserInRole("ROLE_ADMIN")) {
+			model.setViewName("admin");
+		} else if (request.isUserInRole("ROLE_ADMIN_BERSABE")){
+				model.setViewName("adminMain");
+		}else{
+			model.setViewName("welcome");
+		}*/
+		return model;
+	}
+	
 	@RequestMapping(value = "getProjects")
 	public @ResponseBody String getAllProjects(){
 		List<Proyecto> proyectoLista = proyectoService.findAll();
@@ -85,6 +101,11 @@ public class MainController {
 		}
 		
 		return proyectosArray.toString();
+	}
+
+	@RequestMapping(value = "saveProject")
+	public void saveProject(){
+		
 	}
 	
 
