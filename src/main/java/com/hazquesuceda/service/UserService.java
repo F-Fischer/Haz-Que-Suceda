@@ -6,26 +6,26 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.hazquesuceda.interfaces.IProyectoDAO;
 import com.hazquesuceda.interfaces.IRoleDAO;
-import com.hazquesuceda.interfaces.IUserDAO;
-import com.hazquesuceda.model.User;
+import com.hazquesuceda.interfaces.IUsuarioDAO;
+import com.hazquesuceda.model.Usuario;
 
 @Service
 @Transactional
 public class UserService {
 
 	@Autowired
-	private IUserDAO userDAO;
+	private IUsuarioDAO userDAO;
 	@Autowired
 	private IRoleDAO roleDAO;
 	@Autowired
 	private IProyectoDAO proyectoDAO;
 
 
-	public User getUserByUsername(String username) {
+	public Usuario getUserByUsername(String username) {
 		return userDAO.getUserByUsername(username);
 	}
 
-	public User getById(Long userId) {
+	public Usuario getById(Long userId) {
 		return userDAO.getById(userId);
 	}
 

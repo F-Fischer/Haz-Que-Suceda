@@ -2,11 +2,9 @@
 
 	<div class="sr-content center">
 <<<<<<< HEAD
-=======
 	<br>
 	<br>
->>>>>>> 9b488c5b2992e8fbfca694cf2a5e1cc124c75bde
-		<h3 class="title">¡Bienvenido <%=request.getSession().getAttribute("user") %>!</h3>
+		<h3 class="title">¡Bienvenido <%=request.getSession().getAttribute("usuario") %>!</h3>
 	</div>
 	
 	<div>

@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.hazquesuceda.model.Proyecto;
-import com.hazquesuceda.model.User;
+import com.hazquesuceda.model.Usuario;
 import com.hazquesuceda.service.ProyectoService;
 import com.hazquesuceda.service.UserService;
 
@@ -49,9 +49,9 @@ public class MainController {
 	public ModelAndView welcome(@RequestParam(value = "active", required = false) Boolean active,
 			HttpServletRequest request) {
 		Principal principal = request.getUserPrincipal();
-		User u = userService.getUserByUsername(principal.getName());
+		Usuario u = userService.getUserByUsername(principal.getName());
 		String fullName = u.getName() + " " + u.getSurname();
-		request.getSession().setAttribute("user", fullName);
+		request.getSession().setAttribute("usuario", fullName);
 		ModelAndView model = new ModelAndView();
 		
 		
