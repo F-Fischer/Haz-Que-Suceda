@@ -78,6 +78,8 @@ public class MainController {
 			
 			proy.addProperty("id", proyecto.getId());
 			proy.addProperty("name", proyecto.getNombre());
+			proy.addProperty("descripcion", proyecto.getDescripcion());
+			proy.addProperty("cantDeVisitas", proyecto.getCantidadDeVisitas());
 			
 			proyectosArray.add(proy);
 		}

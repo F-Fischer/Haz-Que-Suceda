@@ -72,14 +72,8 @@
 		<property name="annotatedClasses">
 			<list>
 				<value>com.hazquesuceda.model.Usuario</value>
-				<value>com.hazquesuceda.model.Role</value>
+				<value>com.hazquesuceda.model.Rol</value>
 				<value>com.hazquesuceda.model.Proyecto</value>
-				<value>com.hazquesuceda.model.EstadoProyecto</value>
-				<value>com.hazquesuceda.model.Logo</value>
-				<value>com.hazquesuceda.model.Marca</value>
-				<value>com.hazquesuceda.model.MultimediaProyecto</value>
-				<value>com.hazquesuceda.model.Pago</value>
-				<value>com.hazquesuceda.model.Rubro</value>
 			</list>
 		</property>
 	</bean>

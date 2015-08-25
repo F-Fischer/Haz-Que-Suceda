@@ -24,7 +24,7 @@ public class Usuario implements Serializable{
 	private String username;
 	private String password;
 	private Boolean enabled;
-	private Role role;
+	private Rol role;
 	
 	@Id
 	@GeneratedValue
@@ -78,10 +78,10 @@ public class Usuario implements Serializable{
 	
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "ID_rol", nullable = false)
-	public Role getRole() {
+	public Rol getRole() {
 		return role;
 	}
-	public void setRole(Role role) {
+	public void setRole(Rol role) {
 		this.role = role;
 	}
 	
