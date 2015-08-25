@@ -71,8 +71,8 @@
 
 		<property name="annotatedClasses">
 			<list>
-				<value>com.hazquesuceda.model.User</value>
-				<value>com.hazquesuceda.model.Role</value>
+				<value>com.hazquesuceda.model.Usuario</value>
+				<value>com.hazquesuceda.model.Rol</value>
 				<value>com.hazquesuceda.model.Proyecto</value>
 			</list>
 		</property>

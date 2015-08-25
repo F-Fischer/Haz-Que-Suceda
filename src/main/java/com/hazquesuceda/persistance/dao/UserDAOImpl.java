@@ -8,31 +8,31 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
 import com.hazquesuceda.interfaces.IUserDAO;
-import com.hazquesuceda.model.User;
+import com.hazquesuceda.model.Usuario;
 
 
 @Repository
-public class UserDAOImpl extends GenericDAOImpl<User> implements IUserDAO{
+public class UserDAOImpl extends GenericDAOImpl<Usuario> implements IUserDAO{
 
 	public UserDAOImpl(){
-        super(User.class);
+        super(Usuario.class);
     }
 
-	public List<User> findAllEnabled() {
+	public List<Usuario> findAllEnabled() {
 		Session session = getCurrentSession();
-		Criteria crit = session.createCriteria(User.class);
+		Criteria crit = session.createCriteria(Usuario.class);
 		crit.add(Restrictions.eq("enabled", true));
 		return crit.list();
 	}
 
-	public User getUserByUsername(String username) {
+	public Usuario getUserByUsername(String username) {
 		Session session = getCurrentSession();
-		Criteria crit = session.createCriteria(User.class);
+		Criteria crit = session.createCriteria(Usuario.class);
 		if(username != null && username != ""){
 			crit.add(Restrictions.eq("username", username));
 		}
 		
-		return (User) crit.uniqueResult();
+		return (Usuario) crit.uniqueResult();
 	}
 	
 }

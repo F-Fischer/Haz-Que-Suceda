@@ -6,22 +6,22 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
 import com.hazquesuceda.interfaces.IRoleDAO;
-import com.hazquesuceda.model.Role;
+import com.hazquesuceda.model.Rol;
 
 
 @Repository
-public class RoleDAOImpl extends GenericDAOImpl<Role> implements IRoleDAO{
+public class RoleDAOImpl extends GenericDAOImpl<Rol> implements IRoleDAO{
 
 	public RoleDAOImpl() {
-		super(Role.class);
+		super(Rol.class);
 	}
 
-	public Role getByName(String name) {
+	public Rol getByName(String name) {
 		Session session = getCurrentSession();
-		Criteria crit = session.createCriteria(Role.class);
+		Criteria crit = session.createCriteria(Rol.class);
 		
 		crit.add(Restrictions.eq("role", name));
-		return (Role) crit.uniqueResult();
+		return (Rol) crit.uniqueResult();
 	}
 
 }

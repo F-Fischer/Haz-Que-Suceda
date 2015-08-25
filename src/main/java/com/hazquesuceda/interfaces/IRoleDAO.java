@@ -1,10 +1,10 @@
 package com.hazquesuceda.interfaces;
 
-import com.hazquesuceda.model.Role;
+import com.hazquesuceda.model.Rol;
 
 
-public interface IRoleDAO extends IGenericDAO<Role>{
+public interface IRoleDAO extends IGenericDAO<Rol>{
 
-	public Role getByName(String name);
+	public Rol getByName(String name);
 	
 }

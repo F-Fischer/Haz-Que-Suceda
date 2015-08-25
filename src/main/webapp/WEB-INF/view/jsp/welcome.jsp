@@ -12,7 +12,17 @@
 		<h3>Proyectos</h3>
 	</div>
 
-	<div id="proyectos">
+	<div>
+		<h4>Rubros</h4>
+	</div>
+
+	<div class="list-group col-md-3">
+                    <a href="#" class="list-group-item">Proyecto generico</a>
+                    <a href="#" class="list-group-item">Franquicias</a>
+                    <a href="#" class="list-group-item">Start ups</a>
+    </div>
+    
+	<div id="proyectos" class="col-md-9">
 	
 	</div>
 

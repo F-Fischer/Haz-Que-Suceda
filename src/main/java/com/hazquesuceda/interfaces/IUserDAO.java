@@ -2,11 +2,11 @@ package com.hazquesuceda.interfaces;
 
 import java.util.List;
 
-import com.hazquesuceda.model.User;
+import com.hazquesuceda.model.Usuario;
 
 
-public interface IUserDAO extends IGenericDAO<User>{
+public interface IUserDAO extends IGenericDAO<Usuario>{
 	
-	public List<User> findAllEnabled();
-	public User getUserByUsername(String username);
+	public List<Usuario> findAllEnabled();
+	public Usuario getUserByUsername(String username);
 }
