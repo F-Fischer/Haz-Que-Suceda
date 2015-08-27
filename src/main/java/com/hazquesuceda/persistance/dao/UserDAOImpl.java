@@ -31,7 +31,6 @@ public class UserDAOImpl extends GenericDAOImpl<Usuario> implements IUsuarioDAO{
 		if(username != null && username != ""){
 			crit.add(Restrictions.eq("username", username));
 		}
-		
 		return (Usuario) crit.uniqueResult();
 	}
 	

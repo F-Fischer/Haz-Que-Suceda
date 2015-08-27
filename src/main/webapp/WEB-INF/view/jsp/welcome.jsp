@@ -4,7 +4,7 @@
 		<br> <br>
 		<h3 class="title">
 			¡Bienvenido
-			<%=request.getSession().getAttribute("user")%>!
+			<%=request.getSession().getAttribute("usuario")%>!
 		</h3>
 	</div>
 
