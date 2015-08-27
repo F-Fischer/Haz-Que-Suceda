@@ -25,6 +25,14 @@ public class MainController {
 	private UserService userService;
 	private ProyectoService proyectoService;
 
+	@RequestMapping(value = "hello")
+	public ModelAndView hello(
+			@RequestParam(value = "error", required = false) String error) {
+		ModelAndView model = new ModelAndView();
+		model.setViewName("hello");
+		return model;
+	}
+	
 	@RequestMapping(value = "login")
 	public ModelAndView login(
 			@RequestParam(value = "error", required = false) String error) {

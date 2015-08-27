@@ -1,4 +1,4 @@
 <%
-    String redirectURL = "login";
+    String redirectURL = "hello";
     response.sendRedirect(redirectURL);
 %>

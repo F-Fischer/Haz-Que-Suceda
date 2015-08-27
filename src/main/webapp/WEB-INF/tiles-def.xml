@@ -12,18 +12,18 @@
 		<put-attribute name="footer" value="/WEB-INF/view/common/footer.jsp" />
 	</definition>
 	
-	<definition name="helloDefinition" template="/WEB-INF/view/common/layout.jsp">
-		<put-attribute name="title" value="" />
-		<put-attribute name="header" value="/WEB-INF/view/common/header.jsp" />
-		<put-attribute name="body" value="" />
-		<put-attribute name="menu" value="" />
-		<put-attribute name="footer" value="/WEB-INF/view/common/footer.jsp" />
-	</definition>
-
 	<definition name="loginDefinition" template="/WEB-INF/view/common/layout.jsp">
 		<put-attribute name="title" value="" />
 		<put-attribute name="header" value="" />
 		<put-attribute name="body" value="" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	
+	<definition name="hello" template="/WEB-INF/view/common/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/WEB-INF/view/jsp/hello.jsp" />
 		<put-attribute name="menu" value="" />
 		<put-attribute name="footer" value="" />
 	</definition>

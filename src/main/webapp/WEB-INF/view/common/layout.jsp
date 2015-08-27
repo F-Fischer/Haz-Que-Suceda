@@ -13,7 +13,7 @@
 		<link 	rel="stylesheet"	type="text/css" 	href="resources/css/<tiles:getAsString name="style"/>"	/>
 		<link 	rel="stylesheet"	type="text/css" 	href="resources/js/bootstrap-3.3.5-dist/css/bootstrap.min.css"	/>
 		<link 	rel="stylesheet"	type="text/css" 	href="resources/js/bootstrap-3.3.5-dist/css/bootstrap-theme.css"	/>
-
+		
 		<!-----------------------------------------
 		[Scripts]
 		------------------------------------------>
