@@ -1,9 +1,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<body onload='document.loginForm.username.focus();' class="body">
+<body onload='document.loginForm.username.focus();' class="body">   
+	
+	<body id="page-top">
 
-
-	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -13,7 +14,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">H</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,18 +38,18 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    
+
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 style="font-size: 65px;">Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1>Your Favorite Source of Free Bootstrap Themes</h1>
                 <hr>
                 <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
-    
+
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
@@ -61,7 +62,7 @@
             </div>
         </div>
     </section>
-    
+
     <section id="services">
         <div class="container">
             <div class="row">
@@ -75,28 +76,28 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary" style="visibility: hidden; animation-name: none;"></i>
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
                         <h3>Sturdy Templates</h3>
                         <p class="text-muted">Our templates are updated regularly so they don't break.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;"></i>
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>Ready to Ship</h3>
                         <p class="text-muted">You can use this theme as is, or you can make changes!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"></i>
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
                         <h3>Up to Date</h3>
                         <p class="text-muted">We update dependencies to keep things fresh.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;"></i>
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>Made with Love</h3>
                         <p class="text-muted">You have to make your websites with love these days!</p>
                     </div>
@@ -104,7 +105,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
@@ -206,7 +207,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada" style="visibility: hidden; animation-name: none;">Download Now!</a>
+                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
             </div>
         </div>
     </aside>
@@ -220,35 +221,20 @@
                     <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn" style="visibility: hidden; animation-name: none;"></i>
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>123-456-6789</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;"></i>
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+   
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap-3.3.5-dist/bootstrap-hello/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/bootstrap-3.3.5-dist/js/creative.js"></script>
-    
-    
-    
-    
-    
+</body>
 	
 	<div id="login-box">
 
