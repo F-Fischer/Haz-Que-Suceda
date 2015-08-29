@@ -21,16 +21,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Inicio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Emprendedor</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Inversor</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -42,10 +42,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1>Haz que suceda!</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>Bienvenido al sitio donde aquellos con grandes ideas y aquellos con la capacidad de concretarlas se encuentra.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Conocer un poco más</a>
             </div>
         </div>
     </header>
@@ -54,10 +54,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">Tenemos lo que estás buscando!</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+                    <p class="text-faded">Sabemos que concretar un proyecto no es fácil. Por eso estamos acá para ayudarte. Si tenés una gran idea pero no los medios para concretarla, o tenés dinero y querés hacer una buena inversión, éste es el lugar.</p>
+                    <a href="#" class="btn btn-default btn-xl">Comienza ya!</a>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Millones de ideas esperando ser descubiertas</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -114,11 +114,11 @@
                         <img src="resources/js/bootstrap-3.3.5-dist/img/portfolio/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Start ups!
+                                </div>
+                                <div class="project-category text-faded">
+                                    Empresas emergentes apoyadas en la tecnología, con un alto nivel de proyección.
                                 </div>
                             </div>
                         </div>
@@ -129,11 +129,11 @@
                         <img src="resources/js/bootstrap-3.3.5-dist/img/portfolio/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
+                                </div>
+                                <div class="project-category text-faded">
+                                    Category
                                 </div>
                             </div>
                         </div>
@@ -144,11 +144,11 @@
                         <img src="resources/js/bootstrap-3.3.5-dist/img/portfolio/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
+                                </div>
+                                <div class="project-category text-faded">
+                                    Category
                                 </div>
                             </div>
                         </div>
@@ -159,11 +159,11 @@
                         <img src="resources/js/bootstrap-3.3.5-dist/img/portfolio/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
+                                </div>
+                                <div class="project-category text-faded">
+                                    Category
                                 </div>
                             </div>
                         </div>
@@ -174,11 +174,11 @@
                         <img src="resources/js/bootstrap-3.3.5-dist/img/portfolio/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
+                                </div>
+                                <div class="project-category text-faded">
+                                    Category
                                 </div>
                             </div>
                         </div>
@@ -189,11 +189,11 @@
                         <img src="resources/js/bootstrap-3.3.5-dist/img/portfolio/6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
                                     Project Name
+                                </div>
+                                <div class="project-category text-faded">
+                                    Category
                                 </div>
                             </div>
                         </div>

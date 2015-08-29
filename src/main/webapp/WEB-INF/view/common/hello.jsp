@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="bootstrap-hello/css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="bootstrap-hello/css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
 </head>
 
 <body id="page-top">
